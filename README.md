@@ -7,4 +7,5 @@ Survey Research Center at the Institute for Social Research, University of Michi
 
 Corresponding Authors:
 Cleanthis Michael, clmich@umich.edu, Department of Psychology, University of Michigan, 2232 East Hall, 530 Church Street, Ann Arbor, MI 48109, USA
+
 Chandra Sripada, sripada@umich.edu, Department of Psychiatry, University of Michigan, 4250 Plymouth Road, Ann Arbor, MI 48109, USA
