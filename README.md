@@ -1,6 +1,6 @@
-# Socioeconomic resources in youth are linked to divergent patterns of network integration/segregation across the brain’s transmodal axis
+# Somatomotor disconnection links sleep duration with socioeconomic context, screen time, cognition, and psychopathology
 
-Cleanthis Michael, M.S., Aman Taxali, M.S., Mike Angstadt, M.S., Omid Kardan, Ph.D., Alexander Weigard, Ph.D., M. Fiona Molloy, Ph.D., Katherine L. McCurry, Ph.D., Luke W. Hyde, Ph.D., Mary M. Heitzeg, Ph.D., & Chandra Sripada, Ph.D., M.D.
+Authors: Cleanthis Michael, M.S., Aman Taxali, M.S., Mike Angstadt, M.S., Katherine L. McCurry, Ph.D., Alexander Weigard, Ph.D., Omid Kardan, Ph.D., M. Fiona Molloy, Ph.D., Katherine Toda-Thorne, B.S., Lily Burchell, B.A., Maria Dziubinski, B.S., Jason Choi, M.A., Melanie Vandersluis, B.S., Luke W. Hyde, Ph.D., Mary M. Heitzeg, Ph.D., & Chandra Sripada, Ph.D., M.D.
 
 ---
 
