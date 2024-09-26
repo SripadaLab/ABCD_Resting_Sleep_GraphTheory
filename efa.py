@@ -17,7 +17,7 @@ def gather_sleep_data_for_EFA(path_to_ABCD_release_4, output_file='sleep_factor_
     df <- na.omit(df)
     library(psych)
     fa_fit <- fa(df, nfactors=1, rotate="none")
-    fa_f
+    fa_fit
     ################
 
     Parameters:
