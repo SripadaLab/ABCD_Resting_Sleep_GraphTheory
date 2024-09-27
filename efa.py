@@ -8,7 +8,7 @@ def gather_sleep_data_for_EFA(path_to_ABCD_release_4, output_file='sleep_factor_
     for 2-year follow-up in the ABCD Study and merges them into a single dataframe. 
     The final dataframe is saved as a CSV file.
     
-    This saved CSV file should be loaded into R for the EFA as follows:
+    The saved CSV file can be loaded into R for exploratory factor analysis (EFA) using the following steps:
     ################
       EFA (R Code)
     ################
