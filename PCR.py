@@ -2,12 +2,53 @@ import sklearn
 from sklearn import decomposition
 from scipy.linalg import lstsq, pinv
 
+
 def OLS(X, y):
-    return lstsq(X, y, lapack_driver='gelsy', check_finite=False)[0]
+    """
+    Performs Ordinary Least Squares (OLS) regression to compute the regression coefficients.
+
+    Parameters:
+    -----------
+    X : numpy.ndarray
+        The design matrix or independent variables (features).
     
+    y : numpy.ndarray
+        The dependent variable or response vector.
+    
+    Returns:
+    --------
+    numpy.ndarray
+        The computed OLS regression coefficients.
+    """
+
+    return lstsq(X, y, lapack_driver='gelsy', check_finite=False)[0]
+
+
 def covariate_residualization(X, covars, train_idxs):
+    """
+    Removes the effect of covariates from the data by calculating the residuals after regressing out covariates.
+    The covariates are removed independently for each column in the data matrix X.
+
+    Parameters:
+    -----------
+    X : numpy.ndarray
+        The data matrix where the effect of covariates will be removed. Each column in X is treated independently.
+    
+    covars : numpy.ndarray
+        The covariate matrix used for residualization.
+    
+    train_idxs : array-like
+        Indices corresponding to the training data used for fitting the model.
+    
+    Returns:
+    --------
+    numpy.ndarray
+        The residualized data matrix, with covariate effects removed independently for each column in X.
+    """
+
     betas = pinv(covars[train_idxs, :]) @ X[train_idxs, :]
     return X - (covars @ betas)
+
 
 def PCR(X, y, covariates, fold_structure, n_nested_cv=5, n_pcs_consider=None):
     """
