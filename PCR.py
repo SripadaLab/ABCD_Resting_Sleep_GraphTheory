@@ -5,7 +5,7 @@ from scipy.linalg import lstsq
 def OLS(X, y):
     return lstsq(X, y, lapack_driver='gelsy', check_finite=False)[0]
 
-def BBS(X, y, covariates, fold_structure, n_nested_cv=5, n_pcs_consider=None):
+def PCR(X, y, covariates, fold_structure, n_nested_cv=5, n_pcs_consider=None):
     """
     The Brain Basis Set (BBS) predictive model was first discussed in:
     Sripada, C. et al. Basic Units of Inter-Individual Variation in Resting State Connectomes; Sci Rep 9, 1900 (2019); https://doi.org/10.1038/s41598-018-38406-5
