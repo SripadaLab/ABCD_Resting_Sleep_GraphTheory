@@ -9,3 +9,7 @@ Authors: Cleanthis Michael, M.S., Aman Taxali, M.S., Mike Angstadt, M.S., Kather
 Cleanthis Michael, clmich@umich.edu, Department of Psychology, University of Michigan, 2232 East Hall, 530 Church Street, Ann Arbor, MI 48109, USA
 
 Chandra Sripada, sripada@umich.edu, Department of Psychiatry, University of Michigan, 4250 Plymouth Road, Ann Arbor, MI 48109, USA
+
+---
+
+In accordance with the ABCD data use agreement, subject lists cannot be shared on GitHub. For access to this information, please reach out to the corresponding authors directly.
