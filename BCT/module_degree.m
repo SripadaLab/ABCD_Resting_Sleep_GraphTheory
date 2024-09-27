@@ -1,7 +1,7 @@
-function Z=module_degree_zscore(W,Ci,flag)
-%MODULE_DEGREE_ZSCORE       Within-module degree z-score
+function Z=module_degree(W,Ci,flag)
+%MODULE_DEGREE       Within-module degree
 %
-%   Z=module_degree_zscore(W,Ci,flag);
+%   Z=module_degree(W,Ci,flag);
 %
 %   The within-module version of degree centrality.
 %
@@ -12,7 +12,7 @@ function Z=module_degree_zscore(W,Ci,flag)
 %                       2, directed graph: in-degree
 %                       3, directed graph: out-degree and in-degree
 %
-%   Output:     Z,      within-module degree z-score.
+%   Output:     Z,      within-module degree.
 %
 %   Reference: Guimera R, Amaral L. Nature (2005) 433:895-900.
 %
